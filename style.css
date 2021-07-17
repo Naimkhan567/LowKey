@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.smooth-scroll-wrapper {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+header .navbar {
+    color: #FFFFFF;
+    padding: 15px 0;
+}
+
+header .navbar .navbar-nav li {
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .navbar .navbar-nav li a {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+header .navbar .navbar-nav li a:hover,
+header .navbar .navbar-nav li a:focus {
+    color: #8DBA32 !important;
+}
+
+header .navbar .navbar-nav li .active {
+    color: #8DBA32 !important;
+    border-bottom: 3px solid #8DBA32;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1400px) {
+    header {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+        width: 100%;
+        height: 100vh;
+    }
+
+    header .navbar .navbar-nav li {
+        padding: 0 10px;
+    }
+
+    header .navbar .navbar-nav li a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    header {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        width: 100%;
+        height: 100vh;
+    }
+    header .navbar .navbar-nav li {
+        padding: 0 5px;
+    }
+
+    header .navbar .navbar-nav li a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+header .header-showcase {
+    padding: 50px 0;
+}
+
+header .header-showcase .row .left .body p {
+    color: #013A60;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+header .header-showcase .row .left .body h1 {
+    color: #013A60;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+header .header-showcase .row .left .body p span {
+    color: #8DBA32;
+}
+
+header .header-showcase .row .left .body {
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+header .header-showcase .row .left a {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    background-color: #8DBA32;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    header .header-showcase {
+        padding: 30px 0;
+        padding-bottom: 80px;
+    }
+
+    header .header-showcase .row .left .body p {
+        font-size: 22px;
+    }
+
+    header .header-showcase .row .left .body h1 {
+        color: #013A60;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    header .header-showcase .row .left a {
+        font-size: 22px;
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header .header-showcase .row .left .body {
+        padding-top: 25px;
+        padding-bottom: 45px;
+    }
+
+    header .header-showcase .row .right {
+        margin: auto 0;
+    }
+
+    header .header-showcase {
+        padding: 30px 0;
+    }
+
+    header .header-showcase .row .left .body p {
+        font-size: 18px;
+    }
+
+    header .header-showcase .row .left .body h1 {
+        color: #013A60;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 29px;
+    }
+
+    header .header-showcase .row .left a {
+        font-size: 18px;
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header .header-showcase .row .left {
+        text-align: center;
+    }
+
+    header .header-showcase {
+        padding: 20px 0;
+    }
+
+    header .header-showcase .row .right {
+        padding-top: 30px;
+    }
+}
+
+
+
+#about {
+    background-color: #8DBA32;
+    padding: 70px 0;
+}
+
+#about .container-md h1 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+#about .container-md p {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) {
+    #about .container h1 {
+        font-size: 30px;
+        padding: 20px 0;
+    }
+
+    #about .container p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #about {
+        background-color: #8DBA32;
+        padding: 40px 0;
+    }
+
+    #about .container-md h1 {
+        font-size: 27px;
+        padding: 20px 0;
+    }
+
+    #about .container-md p {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+#main {
+    padding: 70px 0;
+}
+
+#main .row {
+    padding: 50px 0;
+}
+
+#main .row .right img {
+    max-width: 500px;
+    float: right;
+}
+
+#main .row .left img {
+    max-width: 500px;
+    float: left;
+}
+
+
+#main .row .text h1 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #013A60;
+    font-weight: bold;
+    text-align: left;
+    padding: 30px 0;
+}
+
+#main .row .text p {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: left;
+    font-weight: regular;
+}
+
+#main .row .right.text h1,
+#main .row .right.text p {
+    text-align: right;
+}
+
+@media screen and (max-width: 1200px) {
+    #main .row .text h1 {
+        font-size: 30px;
+        padding: 30px 0;
+    }
+
+    #main .row .text p {
+        font-size: 18px;
+    }
+
+    #main .row .right img {
+        max-width: 400px;
+    }
+
+    #main .row .left img {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #main {
+        padding: 40px 0;
+    }
+
+    #main .row .text h1 {
+        font-size: 27px;
+        padding: 25px 0;
+    }
+
+    #main .row .text p {
+        font-size: 16px;
+    }
+
+    #main .row .right img {
+        max-width: 300px;
+        width: 100%;
+        height: auto;
+    }
+
+    #main .row .left img {
+        max-width: 300px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+#contact {
+    background: rgba(160, 231, 112, 0.3);
+    padding: 70px 0;
+}
+
+#contact .row img {
+    max-width: 465px;
+    height: auto;
+}
+
+#contact .row form {
+    background-color: #FFFFFF;
+    padding: 30px 50px;
+}
+
+#contact .row form .form-control {
+    border: none;
+    border-bottom: 2px solid #a5a2a2;
+    border-radius: 0;
+    box-shadow: 0;
+    padding-left: 0;
+}
+
+#contact .row form .form-div {
+    padding-bottom: 30px;
+}
+
+#contact .row form .form-control::placeholder {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#contact .row form .form-control:focus {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 248, 34, 0.699);
+}
+
+#contact .row form .form-label {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contact .row form .form-check-label {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contact .row form .w100 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+#contact .row form .btn {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #8DBA32;
+    padding: 10px 50px;
+    border-radius: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    #contact .row img {
+        max-width: 365px;
+        height: auto;
+    }
+
+    #contact .row form .form-div {
+        padding-bottom: 20px;
+    }
+
+    #contact .row form .form-control::placeholder {
+        color: #000000;
+        font-size: 10px;
+    }
+
+    #contact .row form .form-label {
+        color: #000000;
+        font-size: 10px;
+    }
+
+    #contact .row form .form-check-label {
+        color: #000000;
+        font-size: 10px;
+    }
+
+    #contact .row form .btn {
+        padding: 10px 25px;
+        border-radius: 0;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #contact .row img {
+        max-width: 300px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #contact .row .left {
+        text-align: center;
+    }
+
+    #contact .row .left img {
+        max-width: 300px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+footer {
+    background-color: #8DBA32;
+    padding: 70px 0;
+}
+
+footer .row .logo {
+    max-width: 219px;
+    height: auto;
+}
+
+footer .row .left {
+    padding-right: 20px;
+}
+
+footer .row .left p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0;
+}
+
+footer .row .row .service h1,
+footer .row .row .links h1,
+footer .row .row .contact h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0;
+}
+
+footer .row .row .service .title .bar,
+footer .row .row .links .bar,
+footer .row .row .contact .bar {
+    max-width: 50px;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+footer .row .row .service .body,
+footer .row .row .links .body,
+footer .row .row .contact .body {
+    padding-top: 20px;
+}
+
+footer .row .row .service .body a,
+footer .row .row .links .body a,
+footer .row .row .contact .body a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer .row .row .contact h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0 10px 30px;
+}
+
+footer .row .row .contact .bar {
+    max-width: 50px;
+    height: 2px;
+    margin-left: 32px;
+    background-color: #FFFFFF;
+}
+
+footer .row .row .contact .body a span {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    footer {
+        background-color: #8DBA32;
+        padding: 50px 0;
+    }
+
+    footer .row .logo {
+        max-width: 180px;
+        height: auto;
+    }
+
+    footer .row .left p {
+        font-size: 12px;
+        font-weight: 300;
+        padding: 20px 0;
+    }
+
+    footer .row .left a svg {
+        width: 30px;
+    }
+
+    footer .row .row .service h1,
+    footer .row .row .links h1,
+    footer .row .row .contact h1 {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px 0;
+    }
+
+    footer .row .row .service .body a,
+    footer .row .row .links .body a,
+    footer .row .row .contact .body a {
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    footer .row .row .contact h1 {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px 0 10px 30px;
+    }
+
+    footer .row .row .contact .body a svg {
+        width: 30px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    footer {
+        background-color: #8DBA32;
+        padding: 40px 0;
+    }
+
+    footer .row .row .contact .body a svg {
+        width: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer .row .logo {
+        max-width: 139px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    footer .row .left {
+        text-align: center;
+    }
+
+    footer .row .right {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    footer .row .row .service .bar,
+    footer .row .row .links .bar,
+    footer .row .row .contact .bar {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    footer .row .row .contact .bar {
+        margin: 0 auto;
+        margin-left: auto;
+        background-color: #FFFFFF;
+    }
+
+    footer .row .row .contact h1 {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px 0 10px 10px;
+    }
+}
